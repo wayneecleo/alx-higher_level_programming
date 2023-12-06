@@ -1,13 +1,12 @@
 #!/usr/bin/python3
-def add(a, b):
-    result = a + b
-    return result
+if __name__ == "__main__":
+    from add_0 import add
 
 a = int(1)
 b = int(2)
 
 
 
-sum  = a + b
 
-print(f"{a} + {b} = {sum}")
+
+print("{} + {} = {}".format(a, b, add(a, b)))
